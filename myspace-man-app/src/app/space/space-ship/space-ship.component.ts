@@ -8,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class SpaceShipComponent implements OnInit {
   
   spaceShip={
-    modelname:'Boeing',
-    imageUrl:'/assets/statek.jpg',
-    health:75
+    modelname:'Statek kosmiczny',
+    imageUrl:'../../../assets/statek.jpg',
+    health:75,
+    activeShields:true,
+    activeWeapons:false
   }
 
   constructor() { }
