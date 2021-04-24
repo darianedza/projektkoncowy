@@ -1,9 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 body {
     background-image: url(tlo.jpg);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    font-size: Helvetica;
+    font-size: Helvetica, sans-serif;
 }
